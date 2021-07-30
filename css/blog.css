@@ -48,7 +48,7 @@ li.header-nav-item {
 /* Blog list */
 .Blog {
     width: auto;
-    height: 450px;
+    height: 300px;
 }
 
 .blog-ttl {
@@ -135,7 +135,31 @@ li.header-nav-item {
   font-weight: bold;
 }
 
-.blog-list {
+.Blog1 {
+  margin-top: -70px;
+  height: 350px;
+}
+
+/* お問い合わせ */
+.question {
+    width: auto;
+    height: 250px;
+    background-color: ghostwhite;
+}
+
+.question-ttl {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.question-text {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.question-list {
     width: 300px;
     height: 40px;
     background-color:firebrick;
@@ -145,8 +169,50 @@ li.header-nav-item {
     margin-top: 45px;
 }
 
-.blog-list-text {
+.question-list-text {
     display: block;
     padding-top: 10px;
     font-weight: bold;
+}
+
+/* footer */
+.footer-inner.wrap {
+    width: auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+small.footer-copyright {
+    margin-left: 100px;
+    color: white;
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+nav.footer-nav {
+    margin-top: 25px;
+    margin-right: 100px;
+}
+
+ul.footer-nav-list {
+    display: flex;
+    color: white;
+}
+.footer-nav-item a {
+    color: white;
+    font-size: 12px;
+ }
+
+.footer-nav-item {
+  margin-left: 10px;
+}
+
+
+
+ .footer-nav-item:not(:last-child)::after {
+    content: "|";
+    color:white;
+    margin-left: 10px;
 }

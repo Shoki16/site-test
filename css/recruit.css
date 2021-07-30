@@ -49,11 +49,142 @@ li.header-nav-item {
 
 .new-employment {
     width: 100%;
-    height: 500px;
+    height: 600px;
+    margin-top: 70px;
 }
 
 .new-employment-ttl {
     font-weight: bold;
     font-size: 25px;
     margin-left: 100px;
+}
+
+.new-employment-sub {
+    padding-top: 15px;
+    border-top: solid 1px;
+    width: 1080px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.new-employment-content {
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+table {
+  width: 1080px;
+  border-collapse: collapse;
+}
+table th,
+table td {
+  border: 1px solid black;
+  padding: 20px;
+}
+table th {
+  font-weight: bold;
+  background-color: ghostwhite;
+}
+
+th {
+    width: 250px;
+}
+
+.career-employment {
+    margin-left: 100px;
+    margin-top: -200px;
+    height: 350px;
+}
+
+.career-employment-ttl {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.career-employment-sub {
+    padding-top: 15px;
+    border-top: solid 1px;
+    width: 1080px;
+    margin-top: 5px;
+}
+
+.career-employment-content {
+    margin-top: 15px;
+}
+
+/* お問い合わせ */
+.question {
+    width: auto;
+    height: 250px;
+    background-color: ghostwhite;
+}
+
+.question-ttl {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.question-text {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.question-list {
+    width: 300px;
+    height: 40px;
+    background-color:firebrick;
+    color: white;
+    text-align: center;
+    margin-left: 39%;
+    margin-top: 45px;
+}
+
+.question-list-text {
+    display: block;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+/* footer */
+.footer-inner.wrap {
+    width: auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+small.footer-copyright {
+    margin-left: 100px;
+    color: white;
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+nav.footer-nav {
+    margin-top: 25px;
+    margin-right: 100px;
+}
+
+ul.footer-nav-list {
+    display: flex;
+    color: white;
+}
+.footer-nav-item a {
+    color: white;
+    font-size: 12px;
+ }
+
+.footer-nav-item {
+  margin-left: 10px;
+}
+
+
+
+ .footer-nav-item:not(:last-child)::after {
+    content: "|";
+    color:white;
+    margin-left: 10px;
 }
