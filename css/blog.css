@@ -1,0 +1,151 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1.header-ttl {
+    font-size: 20px;
+}
+
+li.header-nav-item {
+    padding: 20px;
+}
+
+.header-position {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  height: 70px;
+  padding: 0 30px;
+}
+
+.header-nav-item {
+  display: inline-block;
+  font-weight: bold;
+}
+
+/* 社員ブログ list */
+.service-ttl {
+    position: relative;
+}
+
+.service-img img {
+    height: 300px;
+    width: 100%;
+}
+
+.service-ttl-text {
+    position: absolute;
+    top: 150px;
+    left: 610px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Blog {
+    width: auto;
+    height: 450px;
+}
+
+.blog-ttl {
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 45%;
+    font-size: 25px;
+}
+
+.blog-card {
+    margin-top: 25px;
+}
+
+.blog-img {
+    margin-left: 100px;
+}
+
+.blog-img img {
+    width: 320px;
+    height: 200px;
+}
+.blog-day {
+    margin-left: 100px;
+    padding-top: 15px;
+    font-size: 13px;
+}
+
+.blog-text {
+    margin-left: 100px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.blog-card1 {
+    margin-left: 450px;
+    margin-top: -20.5%;
+}
+
+.blog-img1 {
+    margin-left: 30px;
+}
+
+
+.blog-img1 img {
+    width: 320px;
+    height: 200px;
+}
+
+.blog-day1 {
+    margin-top: 14.9px;
+    margin-left: 28.5px;
+    font-size: 13px;
+}
+
+.blog-text1 {
+  margin-top: 14.9px;
+  margin-left: 28.5px;
+  font-weight: bold;
+}
+
+.blog-card2 {
+    margin-top: -20.5%;
+    margin-left: 825px;
+}
+
+.blog-img2 {
+  margin-left: 30px;
+}
+
+.blog-card2 img {
+  width: 320px;
+  height: 200px;
+}
+
+.blog-day2 {
+  margin-top: 14.9px;
+  margin-left: 28.5px;
+  font-size: 13px;
+}
+
+.blog-text2 {
+  margin-top: 14.9px;
+  margin-left: 28.5px;
+  font-weight: bold;
+}
+
+.blog-list {
+    width: 300px;
+    height: 40px;
+    background-color:firebrick;
+    color: white;
+    text-align: center;
+    margin-left: 39%;
+    margin-top: 45px;
+}
+
+.blog-list-text {
+    display: block;
+    padding-top: 10px;
+    font-weight: bold;
+}

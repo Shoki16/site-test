@@ -452,7 +452,7 @@ a {
 small.footer-copyright {
     margin-left: 100px;
     color: white;
-    font-size: 13px;
+    font-size: 12px;
     margin-top: 25px;
 }
 
@@ -467,7 +467,7 @@ ul.footer-nav-list {
 }
 .footer-nav-item a {
     color: white;
-    font-size: 13px;
+    font-size: 12px;
  }
 
 .footer-nav-item {
@@ -476,7 +476,7 @@ ul.footer-nav-list {
 
 
 
-.footer-nav-item::after {
+ .footer-nav-item:not(:last-child)::after {
     content: "|";
     color:white;
     margin-left: 10px;

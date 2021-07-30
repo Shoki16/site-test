@@ -24,3 +24,207 @@ li.header-nav-item {
   display: inline-block;
   font-weight: bold;
 }
+
+/* 事業内容 */
+.service-ttl {
+    position: relative;
+}
+
+.service-img img {
+    height: 300px;
+    width: 100%;
+}
+
+.service-ttl-text {
+    position: absolute;
+    top: 150px;
+    left: 610px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* card */
+.service-content {
+    width: 100%;
+    height: 1000px;
+    display: inline-block
+}
+
+.it-work {
+    margin-top: 80px;
+    border-top: solid 1px;
+}
+
+.it-img {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+img {
+    height: 180px;
+}
+
+.it-work-ttl {
+    margin-left: 450px;
+    margin-top: -182px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.it-work-text {
+    margin-left: 450px;
+    padding-top: 10px;
+}
+
+.coach-work {
+    margin-left: 100px;
+    margin-top: 150px;
+    border-top: solid 1px;
+    display: inline-block;
+}
+
+.coach-img {
+    margin-top: 15px;
+}
+
+.coach-work-ttl {
+    margin-left: 350px;
+    margin-top: -182px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.coach-work-text {
+    margin-left: 350px;
+    padding-top: 10px;
+}
+
+.consulting-work {
+    margin-left: 100px;
+    margin-top: 150px;
+    border-top: solid 1px;
+    display: inline-block
+}
+
+.consulting-img {
+    margin-top: 15px;
+}
+
+.consulting-work-ttl {
+    margin-left: 350px;
+    margin-top: -182px;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.consulting-work-text {
+    margin-left: 350px;
+    padding-top: 10px;
+}
+
+.degital-work {
+    margin-left: 100px;
+    margin-top: 150px;
+    border-top: solid 1px;
+    display: inline-block
+}
+
+.degital-img {
+    margin-top: 15px;
+}
+
+.degital-work-ttl {
+    margin-left: 350px;
+    margin-top: -182px;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.degital-work-text {
+    margin-left: 350px;
+    padding-top: 10px;
+}
+
+.border-bottom {
+    border-bottom: solid 1px;
+    padding-bottom: 135px;
+}
+
+/* お問い合わせ */
+.question {
+    width: auto;
+    height: 250px;
+    background-color: ghostwhite;
+}
+
+.question-ttl {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.question-text {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.question-list {
+    width: 300px;
+    height: 40px;
+    background-color:firebrick;
+    color: white;
+    text-align: center;
+    margin-left: 39%;
+    margin-top: 45px;
+}
+
+.question-list-text {
+    display: block;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+/* footer */
+.footer-inner.wrap {
+    width: auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+small.footer-copyright {
+    margin-left: 100px;
+    color: white;
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+nav.footer-nav {
+    margin-top: 25px;
+    margin-right: 100px;
+}
+
+ul.footer-nav-list {
+    display: flex;
+    color: white;
+}
+.footer-nav-item a {
+    color: white;
+    font-size: 12px;
+ }
+
+.footer-nav-item {
+  margin-left: 10px;
+}
+
+
+
+ .footer-nav-item:not(:last-child)::after {
+    content: "|";
+    color:white;
+    margin-left: 10px;
+}

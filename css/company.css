@@ -1,0 +1,203 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1.header-ttl {
+    font-size: 20px;
+}
+
+li.header-nav-item {
+    padding: 20px;
+}
+
+.header-position {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  height: 70px;
+  padding: 0 30px;
+}
+
+.header-nav-item {
+  display: inline-block;
+  font-weight: bold;
+}
+
+/* 会社概要 */
+.service-ttl {
+    position: relative;
+}
+
+.service-img img {
+    height: 300px;
+    width: 100%;
+}
+
+.service-ttl-text {
+    position: absolute;
+    top: 150px;
+    left: 610px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* 会社概要　list */
+.overview {
+    width: 100%;
+    height: 500px;
+}
+
+.overview a {
+  padding-left: 90px;
+}
+
+
+.name {
+    padding-top: 25px;
+    padding-left: 100px;
+    border-top: solid 1px;
+    margin-top: 70px;
+    margin-left: 100px;
+    width: 980px;
+}
+
+.person {
+    padding-top: 25px;
+    padding-left: 100px;
+    border-top: solid 1px;
+    margin-top: 25px;
+    margin-left: 100px;
+    width: 980px;
+}
+
+.place {
+    padding-top: 25px;
+    padding-left: 100px;
+    border-top: solid 1px;
+    margin-top: 25px;
+    margin-left: 100px;
+    width: 980px;
+}
+
+.birth {
+    padding-top: 25px;
+    padding-left: 100px;
+    border-top: solid 1px;
+    margin-top: 25px;
+    margin-left: 100px;
+    width: 980px;
+}
+
+a.birth1 {
+    padding-left: 105px;
+}
+
+.number {
+    padding-top: 25px;
+    padding-left: 100px;
+    border-top: solid 1px;
+    margin-top: 25px;
+    margin-left: 100px;
+    width: 980px;
+}
+
+a.number1 {
+    padding-left: 75px;
+}
+
+.capital {
+    padding-top: 25px;
+    padding-left: 100px;
+    border-top: solid 1px;
+    margin-top: 25px;
+    margin-left: 100px;
+    width: 980px;
+}
+
+.border-bottom {
+    border-bottom:  solid 1px;
+    margin-left: 100px;
+    margin-top: 25px;
+    width: 1080px;
+}
+
+/* お問い合わせ */
+.question {
+    width: auto;
+    height: 250px;
+    background-color: ghostwhite;
+}
+
+.question-ttl {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.question-text {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.question-list {
+    width: 300px;
+    height: 40px;
+    background-color:firebrick;
+    color: white;
+    text-align: center;
+    margin-left: 39%;
+    margin-top: 45px;
+}
+
+.question-list-text {
+    display: block;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+/* footer */
+.footer-inner.wrap {
+    width: auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+small.footer-copyright {
+    margin-left: 100px;
+    color: white;
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+nav.footer-nav {
+    margin-top: 25px;
+    margin-right: 100px;
+}
+
+ul.footer-nav-list {
+    display: flex;
+    color: white;
+}
+.footer-nav-item a {
+    color: white;
+    font-size: 12px;
+ }
+
+.footer-nav-item {
+  margin-left: 10px;
+}
+
+
+
+ .footer-nav-item:not(:last-child)::after {
+    content: "|";
+    color:white;
+    margin-left: 10px;
+}
