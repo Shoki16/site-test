@@ -1,488 +1,148 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 30px;
+    background-color: white;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.header-ttl {
+    font-size: 24px;
+    width: 80px;
+}
+
 a {
     text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
 }
 
-.header-nav-item a{
-    color: black;
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
-
-h1.header-ttl a {
-    font-size: 20px;
-    color: black;
+.header-nav-list {
+    display: flex;
+    font-weight: bold;
 }
 
-li.header-nav-item {
-    padding: 20px;
+.header-nav-item:not(:last-child) {
+    margin-right: 30px;
 }
 
-.header-position {
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  height: 70px;
-  padding: 0 30px;
+.menu {
+    display: none;
+}
+.drawer-nav {
+    display: none;
 }
 
-.header-nav-item {
-  display: inline-block;
-  font-weight: bold;
-}
-
-
-/*top home  */
+/*　top　home　*/
 .top-home {
-  position: relative;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/mv.png) center / cover;
+    color: #fff;
 }
 
-.top-home-img img {
-  width: auto;
-  height: 750px;
+.wrap{
+    margin: auto 0;
 }
-
-.ttl-home {
-  position: absolute;
-  top: 45%;
-  left: 20%;
-}
-
-.text-home {
-  color: white;
-  font-weight: bolder;
-  font-size: 50px;
-  text-align: center;
-}
-
-.text-sub-home {
-  color: white;
-  text-align: center;
-  font-size: 20px;
-  padding: 20px;
-}
-
-/* TECHの想い */
-.top-sub {
-    background-color: black;
-    width: auto;
-    height: 300px;
-}
-
-h1.top-sub-ttl {
-    color: white;
-    font-size: 25px;
-    padding: 90px 0 20px 0;
-    margin-left: 100px;
-}
-
-p.top-sub-text {
-    color: white;
-    line-height: 30px;
-    font-size: 15px;
-    margin-left: 100px;
-}
-
-/* サービス */
-.service {
-    width: auto;
-    height: 1000px;
-}
-
-.service-ttl {
-    margin-top: 100px;
-    margin-left: 45%;
+.top-copy {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 50px;
+    text-align: center;
 }
 
-.it-work {
-    margin-top: 25px;
-}
-
-.it-work-img {
-    margin-left: 100px;
-}
-
-img {
-    width: 500px;
-    height: 300px;
-    padding-top: 200px;
-}
-
-.it-work-ttl {
+.top-copy-sub {
+    font-size: 18px;
     font-weight: bold;
-    padding-top: 10px;
-    margin-left: 100px;
+    text-align: center;
 }
 
-.it-work-text {
-    font-weight: lighter;
-    padding-top: 10px;
-    line-height: 20px;
-    margin-left: 100px;
+.top-heart {
+    color: #fff;
+    background-color: #222;
+    padding: 80px 0;
 }
 
-.coach-work-img {
-    margin-left: 650px;
-    margin-top: -29.5%;
+.top-heart-inner {
+    width: 85%;
+    margin: 0 auto;
 }
 
-.coach-work-ttl {
-  font-weight: bold;
-    margin-left: 650px;
-    padding-top: 10px;
+h2.heart-ttl {
+    font-size: 30px;
+    font-weight: bold;
 }
 
-.coach-work-text {
-    margin-left: 650px;
-    padding-top: 10px;
-    line-height: 20px;
-}
-
-.it-consultng-img {
-    margin-left: 100px;
+p.heart-text {
     margin-top: 20px;
 }
 
-.it-consultng-ttl {
-    margin-left: 100px;
+
+/* サービス */
+.top-service {
+    width: 85%;
+    padding: 80px 0;
+    margin: 0 auto;
+}
+
+h2.service-ttl {
+    font-size: 30px;
     font-weight: bold;
-    padding-top: 10px;
+    text-align: center;
 }
-
-.it-consultng-text {
-    padding-left: 100px;
-    padding-top: 10px;
-    line-height: 20px;
-}
-
-.digital-work-img {
-    margin-left: 650px;
-    margin-top: -29.5%;
-}
-
-.digital-work-ttl {
-  margin-left: 650px;
-  font-weight: bold;
-  padding-top: 10px;
-}
-
-.digital-work-text {
-  margin-left: 650px;
-  padding-top: 10px;
-  line-height: 20px;
-}
-
 
 .service-list {
-    width: 300px;
-    height: 40px;
-    background-color:firebrick;
-    color: white;
-    text-align: center;
-    margin-left: 39%;
-    margin-top: 45px;
-}
-
-.service-list-text {
-    display: block;
-    padding-top: 10px;
-    font-weight: bold;
-}
-
-/* ニュース */
-.News {
-    width: auto;
-    height: 350px;
-    background-color:black;
-}
-
-.news-ttl {
-    font-size: 25px;
-    font-weight: bold;
-    margin-left: 100px;
-    padding-top: 40px;
-    color: white;
-}
-
-.news-list {
-    width: 150px;
-    height: 40px;
-    background-color: firebrick;
-    color: white;
-    margin-left: 1000px;
-}
-
-.news-list-text {
-    display: block;
-    text-align: center;
-    padding-top: 10px;
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: -12%;
-}
-
-.news-information-list {
-    background-color: white;
-    height: 50px;
-    width: 1050px;
-    margin-top: 10px;
-    margin-left: 100px;
-}
-
-.news-information-text {
-    display: block;
-    padding-top: 15px;
-    padding-left: 10px;
-}
-
-a {
-    font-weight: bold;
-}
-
-.news-information-list1 {
-    background-color: white;
-    height: 50px;
-    width: 1050px;
-    margin-top: 10px;
-    margin-left: 100px;
-}
-
-.news-information-text1 {
-  display: block;
-  padding-top: 15px;
-  padding-left: 10px;
-}
-
-.news-information-list2 {
-  background-color: white;
-    height: 50px;
-    width: 1050px;
-    margin-top: 10px;
-    margin-left: 100px;
-}
-
-.news-information-text2 {
-  display: block;
-  padding-top: 15px;
-  padding-left: 10px;
-}
-
-/* 社員ブログ */
-.Blog {
-    width: auto;
-    height: 450px;
-}
-
-.blog-ttl {
-    font-weight: bold;
-    margin-top: 100px;
-    margin-left: 45%;
-    font-size: 25px;
-}
-
-.blog-card {
-    margin-top: 25px;
-}
-
-.blog-img {
-    margin-left: 100px;
-}
-
-.blog-img img {
-    width: 320px;
-    height: 200px;
-}
-.blog-day {
-    margin-left: 100px;
-    padding-top: 15px;
-    font-size: 13px;
-}
-
-.blog-text {
-    margin-left: 100px;
-    font-weight: bold;
-    padding-top: 15px;
-}
-
-.blog-card1 {
-    margin-left: 450px;
-    margin-top: -20.5%;
-}
-
-.blog-img1 {
-    margin-left: 30px;
-}
-
-
-.blog-img1 img {
-    width: 320px;
-    height: 200px;
-}
-
-.blog-day1 {
-    margin-top: 14.9px;
-    margin-left: 28.5px;
-    font-size: 13px;
-}
-
-.blog-text1 {
-  margin-top: 14.9px;
-  margin-left: 28.5px;
-  font-weight: bold;
-}
-
-.blog-card2 {
-    margin-top: -20.5%;
-    margin-left: 825px;
-}
-
-.blog-img2 {
-  margin-left: 30px;
-}
-
-.blog-card2 img {
-  width: 320px;
-  height: 200px;
-}
-
-.blog-day2 {
-  margin-top: 14.9px;
-  margin-left: 28.5px;
-  font-size: 13px;
-}
-
-.blog-text2 {
-  margin-top: 14.9px;
-  margin-left: 28.5px;
-  font-weight: bold;
-}
-
-.blog-list {
-    width: 300px;
-    height: 40px;
-    background-color:firebrick;
-    color: white;
-    text-align: center;
-    margin-left: 39%;
-    margin-top: 45px;
-}
-
-.blog-list-text {
-    display: block;
-    padding-top: 10px;
-    font-weight: bold;
-}
-
-/* 会社概要　採用情報 */
-.company-employment {
-    height: 300px;
-    width: auto;
-}
-
-.company-overview {
-    height: 250px;
-    width: 640px;
-    background-color: firebrick;
-}
-
-.company-ttl {
-    text-align: center;
-    padding-top: 125px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.employment-information {
-    width: 640px;
-    height: 250px;
-    background-color: black;
-    margin-left: 640px;
-    margin-top: -250px;
-}
-
-.employment-ttl {
-    color: white;
-    text-align: center;
-    padding-top: 125px;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-/* お問い合わせ */
-.question {
-    width: auto;
-    height: 250px;
-    background-color: ghostwhite;
-}
-
-.question-ttl {
-    font-weight: bold;
-    text-align: center;
-    font-size: 25px;
-    padding-top: 50px;
-}
-
-.question-text {
-    text-align: center;
-    padding-top: 20px;
-}
-
-.question-list {
-    width: 300px;
-    height: 40px;
-    background-color:firebrick;
-    color: white;
-    text-align: center;
-    margin-left: 39%;
-    margin-top: 45px;
-}
-
-.question-list-text {
-    display: block;
-    padding-top: 10px;
-    font-weight: bold;
-}
-
-/* footer */
-.footer-inner.wrap {
-    width: auto;
-    height: 60px;
     display: flex;
-    justify-content: space-between;
-    background-color: black;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-small.footer-copyright {
-    margin-left: 100px;
-    color: white;
-    font-size: 12px;
-    margin-top: 25px;
+section.service-item {
+    width: 48%;
+    margin-right: 0;
+    margin-left: 2%;
+    margin-top: 20px;
 }
 
-nav.footer-nav {
-    margin-top: 25px;
-    margin-right: 100px;
+img {
+    height: auto;
+    width: 100%;
 }
 
-ul.footer-nav-list {
-    display: flex;
-    color: white;
-}
-.footer-nav-item a {
-    color: white;
-    font-size: 12px;
- }
-
-.footer-nav-item {
-  margin-left: 10px;
+h3.service-sub-ttl {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
+p.service-text {
+    margin-top: 10px;
+}
 
+a.service-botann {
+    display: block;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #cd0224;
+    color: #fff;
+    margin: 40px auto 0;
+    text-decoration: none;
+    transition: 0.3s;
 
- .footer-nav-item:not(:last-child)::after {
-    content: "|";
-    color:white;
-    margin-left: 10px;
 }
