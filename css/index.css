@@ -144,5 +144,198 @@ a.service-botann {
     margin: 40px auto 0;
     text-decoration: none;
     transition: 0.3s;
+}
+a:hover {
+    opacity: 0.5;
+}
 
+/* ニュース */
+section.top-news {
+    background-color: black;
+    padding: 80px 0;
+}
+
+.top-news-innner {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.news-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2.new-ttl {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+}
+
+a.news-botann {
+    width: 160px;
+    font-size: 14px;
+    padding: 6px;
+    color: white;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    background-color: #cd0224;
+}
+
+.top-news-list {
+    margin-top: 20px;
+}
+
+article.top-news-box {
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.top-news-box:hover {
+    opacity: 0.5;
+}
+
+.top-news-box-inner {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+span.news-day {
+    margin-right: 10px;
+}
+
+/* 社員ブログ */
+section.top-blog {
+    padding: 80px 0;
+    width: 85%;
+    margin: 0 auto;
+}
+
+h2.blog-ttl {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+}
+
+article.blog-inner {
+    width: 32%;
+    margin-right: 1%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p.blog-day {
+    margin-top: 5px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+h3.blog-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* 会社概要　採用情報 */
+.top-company-recruit {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a.company-ttl.box2 {
+    background-color: #cd0224;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    line-height: 300px;
+}
+
+a.recruit-ttl.box2 {
+    background-color: grey;
+    width: 100%;
+    display: inline-block;
+    line-height: 300px;
+    text-align: center;
+}
+
+section.company-recruit-inner {
+    width: 50%;
+}
+
+/* お問い合わせ */
+section.top-contact {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #f5f6f9;
+}
+
+.contact-inner {
+    width: 85%;
+    margin: 0 auto;
+}
+
+h2.contact-ttl {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p.contact-text {
+    margin-top: 10px;
+}
+
+a.contact-botann {
+    display: block;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #cd0224;
+    color: #fff;
+    margin: 40px auto 0;
+}
+
+/* fotter */
+.footer {
+    padding: 20px 0;
+    color: #fff;
+    background-color: #222;
+}
+
+.footer-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+.wrap {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.footer-nav-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-nav-item:after {
+    content: "|";
+    display: inline-block;
+    padding: 0 10px;
 }
